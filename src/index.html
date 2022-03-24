@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6</title>
+</head>
+
+<body>
+    <h4>Calculadora de Impuestos Anuales</h4>
+    <p>
+        <label>Ingrese el nombre del cliente:</label>
+        <input type="text" id="nombreCliente">
+    </p>
+    <p>
+        <label>Ingrese Monto Anual Bruto:</label>
+        <input type="text" id="montoBruto">
+        <br>
+        <small>Se refiere a la suma de sus ventas anuales</small>
+        <br><br>
+        <label>Ingrese el Monto Total de Deducciones Anuales:</label>
+        <input type="text" id="deduccion">
+        <br>
+        <small>Se refiere a todos los items que rebajarán la base imponible, según la Ley 20.780</small>
+        <br> <br>
+    </p>
+    <button id="calcular">Calcular</button>
+    <div>
+        <p><span id="resultado"></span></p>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
